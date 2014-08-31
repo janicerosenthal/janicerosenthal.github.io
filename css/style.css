@@ -294,14 +294,14 @@ footer p a:hover {
 .project-title {
 	font-size: 2em;
 	display: inline;
-	color: #00B9A3;
+	/*color: #00B9A3;*/
 	display: block;
 	text-align: center;
 	margin-top: 1em;
 }
 
 .pr-box:hover {
-	background-color: #FB933A;
+	background-color: #DDD;
 	color: #FFF;
 	-o-transition:.2s;
   		-ms-transition:.2s;
