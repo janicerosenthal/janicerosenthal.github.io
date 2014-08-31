@@ -1,0 +1,30 @@
+body {
+     font-family: Helvetica, sans-serif;
+     height: 100%;
+}
+
+.container {
+	max-width: 600px;
+}
+
+#header {
+	text-align: center;
+	border-bottom: 2px solid #eee;
+	padding: 10px 0;
+}
+
+#header h1 {
+	margin-bottom: 16px;
+}
+
+#header h1, #header h3 {
+	margin: 0;
+}
+
+.media-object {
+	height: 80px;
+}
+
+.row-fluid {
+	padding: 10px 0;
+}
