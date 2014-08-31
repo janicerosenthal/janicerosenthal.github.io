@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'OreganoItalic';
+    src: url('oregano-italic.eot');
+    src: url('oregano-italic.eot') format('embedded-opentype'),
+         url('oregano-italic.woff') format('woff'),
+         url('oregano-italic.ttf') format('truetype'),
+         url('oregano-italic.svg#OreganoItalic') format('svg');
+}

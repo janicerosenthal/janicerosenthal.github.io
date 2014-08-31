@@ -1,0 +1,90 @@
+#game-board {
+  background: #DDD;
+  padding: .5em;
+  overflow: hidden;
+  text-align: center;
+  margin: 1em auto 0;
+  border-radius: 5px;
+}
+
+#game-control-buttons {
+  text-align: center;
+  padding: 1em;
+}
+
+.card {
+  display: inline-block;
+  height: 183.5px;
+  width: 144.5px;
+  background-image: url(../images/projects/dino/dino-back.jpg);
+  background-size: contain;
+  cursor: pointer;
+  margin: .5em;
+}
+
+#reset {
+  padding: .5em;
+  background-color: #AAA;
+  color: #FFF;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#reset:hover {
+  background-color: #FB933A;
+  cursor: pointer;
+}
+
+/*.selected, .matched {
+  background-image: url(../images/classic-playing-cards.png);
+}*/
+
+
+
+.twelve.selected, .twelve.matched {
+  background-image: url(../images/projects/dino/dino12.jpg);
+}
+
+.eleven.selected, .jack.matched {
+  background-image: url(../images/projects/dino/dino11.jpg);
+}
+
+.ten.selected, .ten.matched {
+  background-image: url(../images/projects/dino/dino10.jpg);
+}
+
+.nine.selected, .nine.matched {
+  background-image: url(../images/projects/dino/dino9.jpg);
+}
+
+.eight.selected, .eight.matched {
+  background-image: url(../images/projects/dino/dino8.jpg);
+}
+
+.seven.selected, .seven.matched {
+  background-image: url(../images/projects/dino/dino7.jpg);
+}
+
+.six.selected, .six.matched {
+  background-image: url(../images/projects/dino/dino6.jpg);
+}
+
+.five.selected, .five.matched {
+  background-image: url(../images/projects/dino/dino5.jpg);
+}
+
+.four.selected, .four.matched {
+  background-image: url(../images/projects/dino/dino4.jpg);
+}
+
+.three.selected, .three.matched {
+  background-image: url(../images/projects/dino/dino3.jpg);
+}
+
+.two.selected, .two.matched {
+  background-image: url(../images/projects/dino/dino2.jpg);
+}
+
+.one.selected, .one.matched {
+  background-image: url(../images/projects/dino/dino1.jpg);
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PApierSansBold';
+    src: url('papiersansbold.eot');
+    src: url('papiersansbold.eot') format('embedded-opentype'),
+         url('papiersansbold.woff') format('woff'),
+         url('papiersansbold.ttf') format('truetype'),
+         url('papiersansbold.svg#PApierSansBold') format('svg');
+}

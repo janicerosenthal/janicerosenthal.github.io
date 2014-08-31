@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PApierSansItalic';
+    src: url('papiersansitalic.eot');
+    src: url('papiersansitalic.eot') format('embedded-opentype'),
+         url('papiersansitalic.woff') format('woff'),
+         url('papiersansitalic.ttf') format('truetype'),
+         url('papiersansitalic.svg#PApierSansItalic') format('svg');
+}
