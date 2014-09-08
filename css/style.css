@@ -173,6 +173,8 @@ footer p a:hover {
 
 .pic img {
 	width: 100%;
+	border-radius: 2.5px;
+	border: 1px solid #f7f7f7;
 }
 
 
@@ -289,6 +291,7 @@ footer p a:hover {
 	font-size: 1em;
 	color: #999;
 	float: left;
+
 }
 
 .project-title {
@@ -311,10 +314,6 @@ footer p a:hover {
   		
 }
 
-/*.project-title:hover {
-	
-}*/
-
 .pr-box img {
 	float: left;
 	height: 100%;
@@ -322,6 +321,8 @@ footer p a:hover {
 	max-width: 50%;
 	max-height: 100%;
 	height: auto;
+	border-radius: 4px;
+	border: #d9d9d9 1px solid;
 }
 
 
@@ -370,7 +371,7 @@ footer p a:hover {
 #contact-social li a{
 	display: inline-block;
 	width: 24.6%;
-	/*margin: 0 0.5%;*/
+	margin-bottom: 200px;
 	text-decoration: none;
 	color: #FFF;
 	background-color: #CCC;
@@ -467,6 +468,7 @@ nav li a {
 
 .pr-box {
 	width: 100%;
+	font-size: 14px;
 }
 
 

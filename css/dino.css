@@ -1,10 +1,8 @@
 #game-board {
-  background: #DDD;
   padding: .5em;
   overflow: hidden;
   text-align: center;
-  margin: 1em auto 0;
-  border-radius: 5px;
+  margin: 1em auto 20px;
 }
 
 #game-control-buttons {
@@ -24,15 +22,19 @@
 
 #reset {
   padding: .5em;
-  background-color: #AAA;
-  color: #FFF;
+  background-color: #fff;
+  color: #00B9A3;
   display: inline-block;
+  border: 1px solid #00B9A3;
   border-radius: 5px;
+  font-size: 1.25em;
 }
 
 #reset:hover {
   background-color: #FB933A;
+  border: 1px solid #FB933A;
   cursor: pointer;
+  color: #fff;
 }
 
 /*.selected, .matched {

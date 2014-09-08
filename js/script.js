@@ -30,7 +30,7 @@ var picArray = $("#pics img").map(function() {
 var currentImage = null;
 
 
-console.log(picArray);
+// console.log(picArray);
 
 
 //open carousel
