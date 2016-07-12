@@ -2,14 +2,11 @@
 
 $('#pics img').wrap('<div class="pic"></div>');
 
-// $.each($('#pics .pic'), function(index, item) {
-// 	var title = $('img', item).attr('title');
-// 	$(item).prepend('<div class="pic-hover">' + title + '</div>');
-// });
+$.each($('#pics .pic'), function(index, item) {
+ 	var title = $('img', item).attr('title');
+ 	$(item).prepend('<div class="pic-hover"> <span>' + title + '</span> </div>');
+ });
 
-$(".pr-box").on('hover', function() {
-	$('img', this).css('border', '2px solid #FB933A');
-})
 
 ///////////////////////CAROUSEL
 
@@ -107,9 +104,9 @@ $(window).load(function() {
 
 	var mason = $('#mason')
 	mason.masonry({
-		columnWidth: 24,
+		columnWidth: 0,
 		itemSelector: '.pic',
-		gutter: 1,
+		gutter: 4,
 	});
 
 });
